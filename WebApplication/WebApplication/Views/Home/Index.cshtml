@@ -1,0 +1,88 @@
+﻿@model IEnumerable<WebApplication.Models.PhieuXuat>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+    </button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID_NhanVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThoiGian)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Note)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID_NhanVien)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ThoiGian)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Note)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID_PhieuXuat">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID_PhieuXuat">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID_PhieuXuat">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<partial name="OnGetPartial" />
+
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#BtnSave").click(function () {
+                SaveAddData();
+            });
+        });
+
+        function SaveAddData() {
+            formData = new FormData();
+            formData.append("ID_PhieuXuat", $("#txtmpn").val());
+            formData.append("ID_NhanVien", $("#txtmnv").val());
+            formData.append("ThoiGian", $("#txtn").val());
+            formData.append("Note", $("#txtgh").val());
+            $.ajax({
+                async: true,
+                type: 'POST',
+                contentType: false,
+                processData: false,
+                data: formData,
+                success: function (data) {
+                    console.log(data);
+                    if (data.success == true) {
+                        alert(data.message);
+                        location.reload();
+                        $("#Add").modal('hide');
+                    }
+                },
+                error: function () {
+                    toastr.error("Lỗi, vui lòng thử lại sau!", { timeOut: 3000 });
+                }
+            })
+        }
+    </script>
+}
