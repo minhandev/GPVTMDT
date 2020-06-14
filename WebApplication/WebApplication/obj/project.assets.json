@@ -8361,11 +8361,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\minhandev\\Desktop\\WebApplication\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\WebApplication\\WebApplication\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "C:\\Users\\minhandev\\Desktop\\WebApplication\\WebApplication\\WebApplication.csproj",
+      "projectPath": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\WebApplication\\WebApplication\\WebApplication.csproj",
       "packagesPath": "C:\\Users\\minhandev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\minhandev\\Desktop\\WebApplication\\WebApplication\\obj\\",
+      "outputPath": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\WebApplication\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\minhandev\\AppData\\Roaming\\NuGet\\NuGet.Config",
