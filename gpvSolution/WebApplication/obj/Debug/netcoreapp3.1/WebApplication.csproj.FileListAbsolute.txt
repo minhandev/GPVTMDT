@@ -19,11 +19,7 @@ C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcorea
 C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorCoreGenerate.cache
 C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorTargetAssemblyInfo.cache
 C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.RazorTargetAssemblyInfo.cs
 C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.Views.pdb
@@ -224,3 +220,5 @@ C:\Users\minhandev\Desktop\GPVTMDT\GPVTMDT\gpvSolution\WebApplication\obj\Debug\
 C:\Users\minhandev\Desktop\GPVTMDT\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\WebApplication.genruntimeconfig.cache
 C:\Users\minhandev\Desktop\GPVTMDT\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Areas\Manager\Views\User\Index.cshtml.g.cs
 C:\Users\minhandev\Desktop\GPVTMDT\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Areas\Manager\Views\Login\Index.cshtml.g.cs
+C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Areas\Manager\Views\Login\Index.cshtml.g.cs
+C:\Users\minhandev\Desktop\GPVTMDT\gpvSolution\WebApplication\obj\Debug\netcoreapp3.1\Razor\Areas\Manager\Views\User\Index.cshtml.g.cs

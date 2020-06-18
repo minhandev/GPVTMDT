@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj": {}
+    "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj": {
+    "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj",
+        "projectPath": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\gpvSolution\\WebApplication\\WebApplication.csproj",
         "packagesPath": "C:\\Users\\minhandev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\GPVTMDT\\gpvSolution\\WebApplication\\obj\\",
+        "outputPath": "C:\\Users\\minhandev\\Desktop\\GPVTMDT\\gpvSolution\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\minhandev\\AppData\\Roaming\\NuGet\\NuGet.Config",
